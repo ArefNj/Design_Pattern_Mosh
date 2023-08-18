@@ -1,4 +1,5 @@
 package memento;
+
 // CAN be a record
 public class EditorState {
     private final String content;
