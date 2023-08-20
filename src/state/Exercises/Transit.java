@@ -1,4 +1,4 @@
-package State.Exercises;
+package state.Exercises;
 
 public class Transit implements TravelMode {
     @Override

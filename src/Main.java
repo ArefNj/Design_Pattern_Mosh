@@ -1,4 +1,4 @@
-import State.Exercises.*;
+import state.Exercises.*;
 //import State.BrushTool;
 //import State.Canvas;
 //import State.EraserTool;

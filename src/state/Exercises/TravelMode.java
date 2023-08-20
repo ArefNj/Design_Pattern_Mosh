@@ -1,4 +1,4 @@
-package State.Exercises;
+package state.Exercises;
 
 public interface TravelMode {
     Object getEta();

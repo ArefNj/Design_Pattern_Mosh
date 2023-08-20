@@ -1,4 +1,4 @@
-package State;
+package state;
 
 public class SelectionTool implements Tool{
     @Override
