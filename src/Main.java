@@ -1,7 +1,8 @@
-import State.BrushTool;
-import State.Canvas;
-import State.EraserTool;
-import State.SelectionTool;
+import State.Exercises.*;
+//import State.BrushTool;
+//import State.Canvas;
+//import State.EraserTool;
+//import State.SelectionTool;
 //import memento.Editor;
 //import memento.History;
 
@@ -23,21 +24,37 @@ public class Main {
 //
 //        System.out.println(editor.getContent());
 //////////////////////////////////////////////////////////////////////////////////
-       // STATE
-        var canvas = new Canvas();
-        canvas.setCurrentTool(new SelectionTool());
-        canvas.mouseDown();
-        canvas.mouseUp();
-        System.out.println();
-        canvas.setCurrentTool(new BrushTool());
-        canvas.mouseDown();
-        canvas.mouseUp();
-        System.out.println();
-        canvas.setCurrentTool(new EraserTool());
-        canvas.mouseDown();
-        canvas.mouseUp();
+//       // STATE
+//        var canvas = new Canvas();
+//        canvas.setCurrentTool(new SelectionTool());
+//        canvas.mouseDown();
+//        canvas.mouseUp();
+//        System.out.println();
+//        canvas.setCurrentTool(new BrushTool());
+//        canvas.mouseDown();
+//        canvas.mouseUp();
+//        System.out.println();
+//        canvas.setCurrentTool(new EraserTool());
+//        canvas.mouseDown();
+//        canvas.mouseUp();
+        // STATE EXC
+        var directionService = new DirectionService();
 
+        directionService.setTravelMode(new Driving());
+        directionService.getEta();
+        directionService.getDirection();
 
+        directionService.setTravelMode(new Bicycling());
+        directionService.getEta();
+        directionService.getDirection();
+
+        directionService.setTravelMode(new Transit());
+        directionService.getEta();
+        directionService.getDirection();
+
+        directionService.setTravelMode(new Walking());
+        directionService.getEta();
+        directionService.getDirection();
 
 
     }
