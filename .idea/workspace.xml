@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="State Pattern Exercises">
-      <change afterPath="$PROJECT_DIR$/src/iterator/BrowseHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/Iterator.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Iterator Pattern">
+      <change afterPath="$PROJECT_DIR$/src/iterator/exercise/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/exercise/ProductCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
       <workItem from="1692355669420" duration="3389000" />
       <workItem from="1692521512772" duration="5086000" />
       <workItem from="1692529633316" duration="1370000" />
-      <workItem from="1692603359055" duration="2741000" />
+      <workItem from="1692603359055" duration="5086000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692529797877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="State Pattern Exercises">
+      <created>1692606256841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692606256841</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="State Pattern" />
-    <MESSAGE value="State Pattern Exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="State Pattern Exercises" />
+    <MESSAGE value="Iterator Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator Pattern" />
   </component>
 </project>

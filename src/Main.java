@@ -1,5 +1,7 @@
-import iterator.BrowseHistory;
-import iterator.Iterator;
+import iterator.exercise.Product;
+import iterator.exercise.ProductCollection;
+//import iterator.BrowseHistory;
+//import iterator.Iterator;
 //import state.Exercises.*;
 //import State.BrushTool;
 //import State.Canvas;
@@ -39,7 +41,7 @@ public class Main {
 //        canvas.setCurrentTool(new EraserTool());
 //        canvas.mouseDown();
 //        canvas.mouseUp();
-//        // STATE EXC
+//        // STATE Pattern Exercise
 //        var directionService = new DirectionService();
 //
 //        directionService.setTravelMode(new Driving());
@@ -59,21 +61,30 @@ public class Main {
 //        directionService.getDirection();
 
         /* ITERATOR patten */
-        var history = new BrowseHistory();
-        history.push("a");
-        history.push("b");
-        history.push("c");
-        history.push("d");
-        System.out.println(history.pop());
+//        var history = new BrowseHistory();
+//        history.push("a");
+//        history.push("b");
+//        history.push("c");
+//        history.push("d");
+//        System.out.println(history.pop());
+//
+//
+//        Iterator<String> iterator = history.createIterator();
+//        while (iterator.hasNext()) {
+//            var url = iterator.current();
+//            System.out.println(url);
+//            iterator.next();
+//        }
+        /* Iterator Pattern Exercise */
+        var collection = new ProductCollection();
+        collection.add(new Product(1, "a"));
+        collection.add(new Product(2, "b"));
+        collection.add(new Product(3, "c"));
 
-
-        Iterator<String> iterator = history.createIterator();
+        var iterator = collection.createIterator();
         while (iterator.hasNext()) {
-            var url = iterator.current();
-            System.out.println(url);
+            System.out.println(iterator.current());
             iterator.next();
         }
-
-
     }
 }
