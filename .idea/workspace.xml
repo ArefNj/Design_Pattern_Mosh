@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Iterator pattern Exercise">
-      <change afterPath="$PROJECT_DIR$/src/strategy/BlackAndWhite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Compressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/HighContrast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/ImageStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/JpegCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/PngCompressor.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Strategy pattern">
+      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/AES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/DES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/Encryption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -65,7 +62,7 @@
       <workItem from="1692521512772" duration="5086000" />
       <workItem from="1692529633316" duration="1370000" />
       <workItem from="1692603359055" duration="7414000" />
-      <workItem from="1692624851317" duration="928000" />
+      <workItem from="1692624851317" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -102,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692608715629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Strategy pattern">
+      <created>1692626172144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692626172144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +138,7 @@
     <MESSAGE value="State Pattern" />
     <MESSAGE value="Iterator Pattern" />
     <MESSAGE value="Iterator pattern Exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator pattern Exercise" />
+    <MESSAGE value="Strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy pattern" />
   </component>
 </project>

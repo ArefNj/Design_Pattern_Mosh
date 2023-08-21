@@ -1,4 +1,6 @@
-import strategy.*;
+import strategy.excercise.AES;
+import strategy.excercise.ChatClient;
+import strategy.excercise.DES;
 //import iterator.exercise.Product;
 //import iterator.exercise.ProductCollection;
 //import iterator.BrowseHistory;
@@ -86,13 +88,19 @@ public class Main {
 //            iterator.next();
 //        }
         /* Strategy pattern */
-        var imageStorage = new ImageStorage();
-        imageStorage.store("a",
-                new JpegCompressor(),
-                new BlackAndWhite());
-        imageStorage.store("a",
-                new PngCompressor(),
-                new HighContrast());
+//        var imageStorage = new ImageStorage();
+//        imageStorage.store("a",
+//                new JpegCompressor(),
+//                new BlackAndWhite());
+//        imageStorage.store("a",
+//                new PngCompressor(),
+//                new HighContrast());
+        /* Strategy pattern Exercise */
+        var chatClientDES = new ChatClient(new DES());
+        chatClientDES.send("Hello World");
+        var chatClientAES = new ChatClient(new AES());
+        chatClientAES.send("سلام دنیا");
+
 
 
     }
