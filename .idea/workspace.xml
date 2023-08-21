@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Iterator Pattern">
-      <change afterPath="$PROJECT_DIR$/src/iterator/exercise/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/exercise/ProductCollection.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Iterator pattern Exercise">
+      <change afterPath="$PROJECT_DIR$/src/strategy/BlackAndWhite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Compressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/HighContrast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/ImageStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/JpegCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/PngCompressor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -18,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +64,8 @@
       <workItem from="1692355669420" duration="3389000" />
       <workItem from="1692521512772" duration="5086000" />
       <workItem from="1692529633316" duration="1370000" />
-      <workItem from="1692603359055" duration="5086000" />
+      <workItem from="1692603359055" duration="7414000" />
+      <workItem from="1692624851317" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -88,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692606256841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Iterator pattern Exercise">
+      <created>1692608715629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692608715629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="State Pattern" />
     <MESSAGE value="Iterator Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator Pattern" />
+    <MESSAGE value="Iterator pattern Exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator pattern Exercise" />
   </component>
 </project>
