@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Strategy pattern">
-      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/AES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/DES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/excercise/Encryption.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Strategy pattern Exercise">
+      <change afterPath="$PROJECT_DIR$/src/template/AuditTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/GenerateReportTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/TransferMoneyTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
       <workItem from="1692521512772" duration="5086000" />
       <workItem from="1692529633316" duration="1370000" />
       <workItem from="1692603359055" duration="7414000" />
-      <workItem from="1692624851317" duration="2290000" />
+      <workItem from="1692624851317" duration="4530000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692626172144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Strategy pattern Exercise">
+      <created>1692627266095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692627266095</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
     <MESSAGE value="Iterator Pattern" />
     <MESSAGE value="Iterator pattern Exercise" />
     <MESSAGE value="Strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy pattern" />
+    <MESSAGE value="Strategy pattern Exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy pattern Exercise" />
   </component>
 </project>

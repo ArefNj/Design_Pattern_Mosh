@@ -1,6 +1,6 @@
-import strategy.excercise.AES;
-import strategy.excercise.ChatClient;
-import strategy.excercise.DES;
+//import strategy.excercise.AES;
+//import strategy.excercise.ChatClient;
+//import strategy.excercise.DES;
 //import iterator.exercise.Product;
 //import iterator.exercise.ProductCollection;
 //import iterator.BrowseHistory;
@@ -13,6 +13,9 @@ import strategy.excercise.DES;
 //import memento.Editor;
 //import memento.History;
 
+
+import template.GenerateReportTask;
+import template.TransferMoneyTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -96,12 +99,14 @@ public class Main {
 //                new PngCompressor(),
 //                new HighContrast());
         /* Strategy pattern Exercise */
-        var chatClientDES = new ChatClient(new DES());
-        chatClientDES.send("Hello World");
-        var chatClientAES = new ChatClient(new AES());
-        chatClientAES.send("سلام دنیا");
-
-
-
+//        var chatClientDES = new ChatClient(new DES());
+//        chatClientDES.send("Hello World");
+//        var chatClientAES = new ChatClient(new AES());
+//        chatClientAES.send("سلام دنیا");
+        /* Template pattern */
+        var moneyTask = new TransferMoneyTask();
+        moneyTask.execute();
+        var reportTask = new GenerateReportTask();
+        reportTask.execute();
     }
 }
