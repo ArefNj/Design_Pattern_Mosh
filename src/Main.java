@@ -1,4 +1,6 @@
-import state.Exercises.*;
+import iterator.BrowseHistory;
+import iterator.Iterator;
+//import state.Exercises.*;
 //import State.BrushTool;
 //import State.Canvas;
 //import State.EraserTool;
@@ -9,7 +11,7 @@ import state.Exercises.*;
 
 public class Main {
     public static void main(String[] args) {
-//        // MEMENTO
+        /* MEMENTO patten */
 //        Editor editor = new Editor();
 //        History history = new History();
 //
@@ -24,7 +26,7 @@ public class Main {
 //
 //        System.out.println(editor.getContent());
 //////////////////////////////////////////////////////////////////////////////////
-//       // STATE
+        /* STATE patten */
 //        var canvas = new Canvas();
 //        canvas.setCurrentTool(new SelectionTool());
 //        canvas.mouseDown();
@@ -37,24 +39,40 @@ public class Main {
 //        canvas.setCurrentTool(new EraserTool());
 //        canvas.mouseDown();
 //        canvas.mouseUp();
-        // STATE EXC
-        var directionService = new DirectionService();
+//        // STATE EXC
+//        var directionService = new DirectionService();
+//
+//        directionService.setTravelMode(new Driving());
+//        directionService.getEta();
+//        directionService.getDirection();
+//
+//        directionService.setTravelMode(new Bicycling());
+//        directionService.getEta();
+//        directionService.getDirection();
+//
+//        directionService.setTravelMode(new Transit());
+//        directionService.getEta();
+//        directionService.getDirection();
+//
+//        directionService.setTravelMode(new Walking());
+//        directionService.getEta();
+//        directionService.getDirection();
 
-        directionService.setTravelMode(new Driving());
-        directionService.getEta();
-        directionService.getDirection();
+        /* ITERATOR patten */
+        var history = new BrowseHistory();
+        history.push("a");
+        history.push("b");
+        history.push("c");
+        history.push("d");
+        System.out.println(history.pop());
 
-        directionService.setTravelMode(new Bicycling());
-        directionService.getEta();
-        directionService.getDirection();
 
-        directionService.setTravelMode(new Transit());
-        directionService.getEta();
-        directionService.getDirection();
-
-        directionService.setTravelMode(new Walking());
-        directionService.getEta();
-        directionService.getDirection();
+        Iterator<String> iterator = history.createIterator();
+        while (iterator.hasNext()) {
+            var url = iterator.current();
+            System.out.println(url);
+            iterator.next();
+        }
 
 
     }
