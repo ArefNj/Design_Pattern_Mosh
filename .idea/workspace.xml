@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Command pattern">
-      <change afterPath="$PROJECT_DIR$/src/command/editor/BoldCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/editor/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/editor/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/editor/HtmlDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/editor/UndoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/editor/UndoableCommand.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Command pattern Undoable Commands">
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/SetContrastCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/SetTextCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/UndoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/UndoableVideoCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/videoEditor/VideoEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/editor/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/editor/History.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <workItem from="1692603359055" duration="7414000" />
       <workItem from="1692624851317" duration="5428000" />
       <workItem from="1692704328276" duration="596000" />
-      <workItem from="1692795443789" duration="5098000" />
+      <workItem from="1692795443789" duration="11199000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -138,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692798043620</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Command pattern Undoable Commands">
+      <created>1692804906495</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692804906495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +185,7 @@
     <MESSAGE value="Template pattern" />
     <MESSAGE value="Template pattern Exercise" />
     <MESSAGE value="Command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Command pattern" />
+    <MESSAGE value="Command pattern Undoable Commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command pattern Undoable Commands" />
   </component>
 </project>
