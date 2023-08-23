@@ -1,6 +1,6 @@
-//import strategy.excercise.AES;
-//import strategy.excercise.ChatClient;
-//import strategy.excercise.DES;
+//import strategy.exercise.AES;
+//import strategy.exercise.ChatClient;
+//import strategy.exercise.DES;
 //import iterator.exercise.Product;
 //import iterator.exercise.ProductCollection;
 //import iterator.BrowseHistory;
@@ -12,10 +12,9 @@
 //import State.SelectionTool;
 //import memento.Editor;
 //import memento.History;
-
-
-import template.GenerateReportTask;
-import template.TransferMoneyTask;
+//import template.GenerateReportTask;
+//import template.TransferMoneyTask;
+import template.exercise.Example;
 
 public class Main {
     public static void main(String[] args) {
@@ -104,9 +103,14 @@ public class Main {
 //        var chatClientAES = new ChatClient(new AES());
 //        chatClientAES.send("سلام دنیا");
         /* Template pattern */
-        var moneyTask = new TransferMoneyTask();
-        moneyTask.execute();
-        var reportTask = new GenerateReportTask();
-        reportTask.execute();
+//        var moneyTask = new TransferMoneyTask();
+//        moneyTask.execute();
+//        var reportTask = new GenerateReportTask();
+//        reportTask.execute();
+        /* Template pattern Exercise*/
+        var example = new Example();
+        example.close();
+
+
     }
 }

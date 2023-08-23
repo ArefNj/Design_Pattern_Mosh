@@ -1,4 +1,4 @@
-package strategy.excercise;
+package strategy.exercise;
 
 public class ChatClient {
     private final Encryption encryptionAlgorithm;
