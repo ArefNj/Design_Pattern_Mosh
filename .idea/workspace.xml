@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Template pattern">
-      <change afterPath="$PROJECT_DIR$/src/template/exercise/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/exercise/Window.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Template pattern Exercise">
+      <change afterPath="$PROJECT_DIR$/src/command/AddCustomerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/fx/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/fx/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -62,7 +64,7 @@
       <workItem from="1692603359055" duration="7414000" />
       <workItem from="1692624851317" duration="5428000" />
       <workItem from="1692704328276" duration="596000" />
-      <workItem from="1692795443789" duration="712000" />
+      <workItem from="1692795443789" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -120,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692652173126</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Template pattern Exercise">
+      <created>1692796488582</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692796488582</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +164,7 @@
     <MESSAGE value="Strategy pattern" />
     <MESSAGE value="Strategy pattern Exercise" />
     <MESSAGE value="Template pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template pattern" />
+    <MESSAGE value="Template pattern Exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template pattern Exercise" />
   </component>
 </project>

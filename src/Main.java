@@ -14,7 +14,11 @@
 //import memento.History;
 //import template.GenerateReportTask;
 //import template.TransferMoneyTask;
-import template.exercise.Example;
+//import template.exercise.Example;
+
+import command.AddCustomerCommand;
+import command.CustomerService;
+import command.fx.Button;
 
 public class Main {
     public static void main(String[] args) {
@@ -107,10 +111,14 @@ public class Main {
 //        moneyTask.execute();
 //        var reportTask = new GenerateReportTask();
 //        reportTask.execute();
-        /* Template pattern Exercise*/
-        var example = new Example();
-        example.close();
-
+        /* Template pattern Exercise */
+//        var example = new Example();
+//        example.close();
+        /* Command pattern  */
+        var service = new CustomerService();
+        var command = new AddCustomerCommand(service);
+        var button = new Button(command);
+        button.click();
 
     }
 }
