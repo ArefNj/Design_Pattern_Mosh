@@ -15,10 +15,14 @@
 //import template.GenerateReportTask;
 //import template.TransferMoneyTask;
 //import template.exercise.Example;
+//import command.AddCustomerCommand;
+//import command.CustomerService;
+//import command.fx.Button;
 
-import command.AddCustomerCommand;
-import command.CustomerService;
-import command.fx.Button;
+import command.editor.BoldCommand;
+import command.editor.History;
+import command.editor.HtmlDocument;
+import command.editor.UndoCommand;
 
 public class Main {
     public static void main(String[] args) {
@@ -115,10 +119,23 @@ public class Main {
 //        var example = new Example();
 //        example.close();
         /* Command pattern  */
-        var service = new CustomerService();
-        var command = new AddCustomerCommand(service);
-        var button = new Button(command);
-        button.click();
+//        var service = new CustomerService();
+//        var command = new AddCustomerCommand(service);
+//        var button = new Button(command);
+//        button.click();
+        /* Command pattern Undoable Commands */
+        var history = new History();
+        var document = new HtmlDocument();
+        document.setContent("Hello World");
+        // BOLD
+        var htmlBoldCommand = new BoldCommand(document, history);
+        htmlBoldCommand.execute();
+        System.out.println(document.getContent());
+        // UNDO
+        var undoCommand = new UndoCommand(history);
+        undoCommand.execute();
+        System.out.println(document.getContent());
+
 
     }
 }
