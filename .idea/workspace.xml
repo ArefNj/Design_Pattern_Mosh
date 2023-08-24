@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Undoable Command pattern VideoEditor">
-      <change afterPath="$PROJECT_DIR$/src/observer/Chart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/SpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Observe pattern and communication styles">
+      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/StatusBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/StockListView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -22,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,7 +66,7 @@
       <workItem from="1692624851317" duration="5428000" />
       <workItem from="1692704328276" duration="596000" />
       <workItem from="1692795443789" duration="12096000" />
-      <workItem from="1692833059958" duration="1875000" />
+      <workItem from="1692833059958" duration="5505000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692814154057</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Observe pattern and communication styles">
+      <created>1692835213268</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692835213268</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="Command pattern" />
     <MESSAGE value="Command pattern Undoable Commands" />
     <MESSAGE value="Undoable Command pattern VideoEditor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Undoable Command pattern VideoEditor" />
+    <MESSAGE value="Observe pattern and communication styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observe pattern and communication styles" />
   </component>
 </project>

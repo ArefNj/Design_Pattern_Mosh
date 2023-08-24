@@ -19,10 +19,13 @@
 //import command.CustomerService;
 //import command.fx.Button;
 //import command.videoEditor.*;
-
-import observer.Chart;
-import observer.DataSource;
-import observer.SpreadSheet;
+//import observer.Chart;
+//import observer.DataSource;
+//import observer.SpreadSheet;
+//import observer.stockApp.Observer;
+import observer.stockApp.StatusBar;
+import observer.stockApp.Stock;
+import observer.stockApp.StockListView;
 
 public class Main {
     public static void main(String[] args) {
@@ -157,16 +160,33 @@ public class Main {
 //        undoCommand.execute();
 //        System.out.println("UNDO: " + videoEditor);
         /* Observer pattern */
-        var dataSource = new DataSource();
-        var chart = new Chart(dataSource);
-        var spreadSheet = new SpreadSheet(dataSource);
-        dataSource.addObserver(chart);
-        dataSource.addObserver(spreadSheet);
-        dataSource.setValue(5);
+//        var dataSource = new DataSource();
+//        var chart = new Chart(dataSource);
+//        var spreadSheet = new SpreadSheet(dataSource);
+//        dataSource.addObserver(chart);
+//        dataSource.addObserver(spreadSheet);
+//        dataSource.setValue(5);
+//
+//        dataSource.removeObserver(chart);
+//        dataSource.setValue(6);
+        /* Observer pattern StockApp update */
+        var statusBar = new StatusBar();
+        var stockListView = new StockListView();
 
-        dataSource.removeObserver(chart);
-        dataSource.setValue(6);
+        var stock1 = new Stock("stock1", 10);
+        var stock2 = new Stock("stock2", 20);
+        var stock3 = new Stock("stock3", 30);
 
+        statusBar.addStock(stock1);
+        statusBar.addStock(stock2);
+
+        stockListView.addStock(stock1);
+        stockListView.addStock(stock2);
+        stockListView.addStock(stock3);
+
+        stock2.setPrice(21);
+
+        stock3.setPrice(9);
 
 
     }
