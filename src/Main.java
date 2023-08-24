@@ -20,6 +20,10 @@
 //import command.fx.Button;
 //import command.videoEditor.*;
 
+import observer.Chart;
+import observer.DataSource;
+import observer.SpreadSheet;
+
 public class Main {
     public static void main(String[] args) {
         /* MEMENTO patten */
@@ -152,6 +156,16 @@ public class Main {
 //
 //        undoCommand.execute();
 //        System.out.println("UNDO: " + videoEditor);
+        /* Observer pattern */
+        var dataSource = new DataSource();
+        var chart = new Chart(dataSource);
+        var spreadSheet = new SpreadSheet(dataSource);
+        dataSource.addObserver(chart);
+        dataSource.addObserver(spreadSheet);
+        dataSource.setValue(5);
+
+        dataSource.removeObserver(chart);
+        dataSource.setValue(6);
 
 
 
