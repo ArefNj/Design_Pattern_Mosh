@@ -198,7 +198,7 @@ public class Main {
         /* mediator pattern */
         var dialog = new ArticlesDialogBox();
         dialog.simulateUserInteraction();
-
+        /* */
 
 
 
