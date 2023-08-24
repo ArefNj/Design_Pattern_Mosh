@@ -23,9 +23,10 @@
 //import observer.DataSource;
 //import observer.SpreadSheet;
 //import observer.stockApp.Observer;
-import observer.stockApp.StatusBar;
-import observer.stockApp.Stock;
-import observer.stockApp.StockListView;
+//import observer.stockApp.StatusBar;
+//import observer.stockApp.Stock;
+//import observer.stockApp.StockListView;
+import mediator.ArticlesDialogBox;
 
 public class Main {
     public static void main(String[] args) {
@@ -43,6 +44,7 @@ public class Main {
 //        editor.restore(history.pop());
 //
 //        System.out.println(editor.getContent());
+//-----------------------------------------------------------------------------------------------------------------------
         /* STATE patten */
 //        var canvas = new Canvas();
 //        canvas.setCurrentTool(new SelectionTool());
@@ -74,6 +76,7 @@ public class Main {
 //        directionService.setTravelMode(new Walking());
 //        directionService.getEta();
 //        directionService.getDirection();
+//-----------------------------------------------------------------------------------------------------------------------
         /* ITERATOR patten */
 //        var history = new BrowseHistory();
 //        history.push("a");
@@ -100,6 +103,7 @@ public class Main {
 //            System.out.println(iterator.current());
 //            iterator.next();
 //        }
+//-----------------------------------------------------------------------------------------------------------------------
         /* Strategy pattern */
 //        var imageStorage = new ImageStorage();
 //        imageStorage.store("a",
@@ -113,6 +117,7 @@ public class Main {
 //        chatClientDES.send("Hello World");
 //        var chatClientAES = new ChatClient(new AES());
 //        chatClientAES.send("سلام دنیا");
+//-----------------------------------------------------------------------------------------------------------------------
         /* Template pattern */
 //        var moneyTask = new TransferMoneyTask();
 //        moneyTask.execute();
@@ -121,6 +126,7 @@ public class Main {
         /* Template pattern Exercise */
 //        var example = new Example();
 //        example.close();
+// -----------------------------------------------------------------------------------------------------------------------
         /* Command pattern  */
 //        var service = new CustomerService();
 //        var command = new AddCustomerCommand(service);
@@ -159,6 +165,7 @@ public class Main {
 //
 //        undoCommand.execute();
 //        System.out.println("UNDO: " + videoEditor);
+//-----------------------------------------------------------------------------------------------------------------------
         /* Observer pattern */
 //        var dataSource = new DataSource();
 //        var chart = new Chart(dataSource);
@@ -170,23 +177,29 @@ public class Main {
 //        dataSource.removeObserver(chart);
 //        dataSource.setValue(6);
         /* Observer pattern StockApp update */
-        var statusBar = new StatusBar();
-        var stockListView = new StockListView();
+//        var statusBar = new StatusBar();
+//        var stockListView = new StockListView();
+//
+//        var stock1 = new Stock("stock1", 10);
+//        var stock2 = new Stock("stock2", 20);
+//        var stock3 = new Stock("stock3", 30);
+//
+//        statusBar.addStock(stock1);
+//        statusBar.addStock(stock2);
+//
+//        stockListView.addStock(stock1);
+//        stockListView.addStock(stock2);
+//        stockListView.addStock(stock3);
+//
+//        stock2.setPrice(21);
+//
+//        stock3.setPrice(9);
+//-----------------------------------------------------------------------------------------------------------------------
+        /* mediator pattern */
+        var dialog = new ArticlesDialogBox();
+        dialog.simulateUserInteraction();
 
-        var stock1 = new Stock("stock1", 10);
-        var stock2 = new Stock("stock2", 20);
-        var stock3 = new Stock("stock3", 30);
 
-        statusBar.addStock(stock1);
-        statusBar.addStock(stock2);
-
-        stockListView.addStock(stock1);
-        stockListView.addStock(stock2);
-        stockListView.addStock(stock3);
-
-        stock2.setPrice(21);
-
-        stock3.setPrice(9);
 
 
     }

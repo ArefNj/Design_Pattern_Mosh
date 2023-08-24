@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Observe pattern and communication styles">
-      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/StatusBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/StockListView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/stockApp/Subject.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Observe pattern StockApp Exercise">
+      <change afterPath="$PROJECT_DIR$/src/mediator/ArticlesDialogBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/DialogBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/ListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/UIControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -22,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +67,9 @@
       <workItem from="1692624851317" duration="5428000" />
       <workItem from="1692704328276" duration="596000" />
       <workItem from="1692795443789" duration="12096000" />
-      <workItem from="1692833059958" duration="5505000" />
+      <workItem from="1692833059958" duration="5915000" />
+      <workItem from="1692875988416" duration="1501000" />
+      <workItem from="1692887473322" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692835213268</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Observe pattern StockApp Exercise">
+      <created>1692838754282</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692838754282</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +216,7 @@
     <MESSAGE value="Command pattern Undoable Commands" />
     <MESSAGE value="Undoable Command pattern VideoEditor" />
     <MESSAGE value="Observe pattern and communication styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observe pattern and communication styles" />
+    <MESSAGE value="Observe pattern StockApp Exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observe pattern StockApp Exercise" />
   </component>
 </project>
