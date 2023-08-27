@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="mediator pattern implementation with Observer pattern">
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Authenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Compressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/WebServer.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Chain of Responsibility design pattern">
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/exercise/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/exercise/DataReaderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/exercise/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/exercise/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/exercise/QuickBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -70,7 +69,8 @@
       <workItem from="1692833059958" duration="5915000" />
       <workItem from="1692875988416" duration="1501000" />
       <workItem from="1692887473322" duration="2632000" />
-      <workItem from="1693094407192" duration="2532000" />
+      <workItem from="1693094407192" duration="2833000" />
+      <workItem from="1693139489164" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692889738625</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Chain of Responsibility design pattern">
+      <created>1693098747391</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1693098747391</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +241,7 @@
     <MESSAGE value="Observe pattern StockApp Exercise" />
     <MESSAGE value="mediator pattern" />
     <MESSAGE value="mediator pattern implementation with Observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="mediator pattern implementation with Observer pattern" />
+    <MESSAGE value="Chain of Responsibility design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chain of Responsibility design pattern" />
   </component>
 </project>

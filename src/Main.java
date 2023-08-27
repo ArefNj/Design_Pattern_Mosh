@@ -26,10 +26,8 @@
 //import observer.stockApp.StatusBar;
 //import observer.stockApp.Stock;
 //import observer.stockApp.StockListView;
-import chainOfResponsibility.*;
-import mediator.ArticlesDialogBox;
 
-import java.security.Provider;
+import chainOfResponsibility.exercise.DataReaderFactory;
 
 public class Main {
     public static void main(String[] args) {
@@ -204,12 +202,20 @@ public class Main {
 //-----------------------------------------------------------------------------------------------------------------------
         /*chain of responsibility */
 
-        Encryptor encryptor = new Encryptor(null);
-        Compressor compressor = new Compressor(encryptor);
-        Logger logger = new Logger(compressor);
-        Authenticator authenticator = new Authenticator(logger);
-        var server = new WebServer((authenticator));
-        server.handle(new HttpRequest("Admin","1234"));
+//        Encryptor encryptor = new Encryptor(null);
+//        Compressor compressor = new Compressor(encryptor);
+////        Logger logger = new Logger(compressor);
+//        Authenticator authenticator = new Authenticator(logger);
+//        var server = new WebServer((authenticator));
+//        server.handle(new HttpRequest("Admin","1234"));
+
+        /* chain of responsibility spreadSheet reader */
+
+        var dataReader = new DataReaderFactory().run();
+        dataReader.read("ali.xls");
+        dataReader.read("ali.numbers");
+        dataReader.read("ali.qbw");
+        dataReader.read("ali.x");
 
 
 
