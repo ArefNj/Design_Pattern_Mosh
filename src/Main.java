@@ -26,7 +26,10 @@
 //import observer.stockApp.StatusBar;
 //import observer.stockApp.Stock;
 //import observer.stockApp.StockListView;
+import chainOfResponsibility.*;
 import mediator.ArticlesDialogBox;
+
+import java.security.Provider;
 
 public class Main {
     public static void main(String[] args) {
@@ -196,9 +199,17 @@ public class Main {
 //        stock3.setPrice(9);
 //-----------------------------------------------------------------------------------------------------------------------
         /* mediator pattern */
-        var dialog = new ArticlesDialogBox();
-        dialog.simulateUserInteraction();
-        /* */
+//        var dialog = new ArticlesDialogBox();
+//        dialog.simulateUserInteraction();
+//-----------------------------------------------------------------------------------------------------------------------
+        /*chain of responsibility */
+
+        Encryptor encryptor = new Encryptor(null);
+        Compressor compressor = new Compressor(encryptor);
+        Logger logger = new Logger(compressor);
+        Authenticator authenticator = new Authenticator(logger);
+        var server = new WebServer((authenticator));
+        server.handle(new HttpRequest("Admin","1234"));
 
 
 
