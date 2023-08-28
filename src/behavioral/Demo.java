@@ -29,12 +29,7 @@ package behavioral;//import behavioral.strategy.exercise.AES;
 //import behavioral.chainOfResponsibility.exercise.DataReaderFactory;
 //import behavioral.visitor.*;
 
-import behavioral.visitor.wavFile.AddReverbOperator;
-import behavioral.visitor.wavFile.NormalizeOperator;
-import behavioral.visitor.wavFile.ReduceNoiseOperator;
-import behavioral.visitor.wavFile.WavFile;
-
-public class Main {
+public class Demo {
     public static void main(String[] args) {
         /* MEMENTO patten */
 //        Editor editor = new Editor();
@@ -225,7 +220,6 @@ public class Main {
 //        document.execute(new HighlightOperator());
 //        document.execute(new PlainTextOperator());
         /*  behavioral.visitor pattern Wav Program */
-
 //        var wavFile = WavFile.read("poetWithGun.wav");
 //        wavFile.applyFilter(new ReduceNoiseOperator());
 //        wavFile.applyFilter(new AddReverbOperator());
