@@ -26,8 +26,9 @@
 //import observer.stockApp.StatusBar;
 //import observer.stockApp.Stock;
 //import observer.stockApp.StockListView;
+//import chainOfResponsibility.exercise.DataReaderFactory;
 
-import chainOfResponsibility.exercise.DataReaderFactory;
+import visitor.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -211,11 +212,19 @@ public class Main {
 
         /* chain of responsibility spreadSheet reader */
 
-        var dataReader = new DataReaderFactory().run();
-        dataReader.read("ali.xls");
-        dataReader.read("ali.numbers");
-        dataReader.read("ali.qbw");
-        dataReader.read("ali.x");
+//        var dataReader = new DataReaderFactory().run();
+//        dataReader.read("ali.xls");
+//        dataReader.read("ali.numbers");
+//        dataReader.read("ali.qbw");
+//        dataReader.read("ali.x");
+
+        /*  visitor pattern */
+        var document = new HtmlDocument();
+        document.add(new HeadingNode());
+        document.add(new AncherNode());
+        document.execute(new HighlightOperator());
+        document.execute(new PlainTextOperator());
+
 
 
 
