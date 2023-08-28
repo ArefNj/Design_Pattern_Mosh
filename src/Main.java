@@ -27,8 +27,12 @@
 //import observer.stockApp.Stock;
 //import observer.stockApp.StockListView;
 //import chainOfResponsibility.exercise.DataReaderFactory;
+//import visitor.*;
 
-import visitor.*;
+import visitor.wavFile.AddReverbOperator;
+import visitor.wavFile.NormalizeOperator;
+import visitor.wavFile.ReduceNoiseOperator;
+import visitor.wavFile.WavFile;
 
 public class Main {
     public static void main(String[] args) {
@@ -202,29 +206,29 @@ public class Main {
 //        dialog.simulateUserInteraction();
 //-----------------------------------------------------------------------------------------------------------------------
         /*chain of responsibility */
-
 //        Encryptor encryptor = new Encryptor(null);
 //        Compressor compressor = new Compressor(encryptor);
 ////        Logger logger = new Logger(compressor);
 //        Authenticator authenticator = new Authenticator(logger);
 //        var server = new WebServer((authenticator));
 //        server.handle(new HttpRequest("Admin","1234"));
-
         /* chain of responsibility spreadSheet reader */
-
 //        var dataReader = new DataReaderFactory().run();
 //        dataReader.read("ali.xls");
 //        dataReader.read("ali.numbers");
 //        dataReader.read("ali.qbw");
 //        dataReader.read("ali.x");
-
         /*  visitor pattern */
-        var document = new HtmlDocument();
-        document.add(new HeadingNode());
-        document.add(new AncherNode());
-        document.execute(new HighlightOperator());
-        document.execute(new PlainTextOperator());
-
+//        var document = new HtmlDocument();
+//        document.add(new HeadingNode());
+//        document.add(new AncherNode());
+//        document.execute(new HighlightOperator());
+//        document.execute(new PlainTextOperator());
+        /*  visitor pattern Wav Program */
+        var wavFile = WavFile.read("poetWithGun.wav");
+        wavFile.applyFilter(new ReduceNoiseOperator());
+        wavFile.applyFilter(new AddReverbOperator());
+        wavFile.applyFilter(new NormalizeOperator());
 
 
 

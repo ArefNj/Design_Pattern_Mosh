@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Chain of Responsibility spreadSheet file reader">
-      <change afterPath="$PROJECT_DIR$/src/visitor/AncherNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/HeadingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/HighlightOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/HtmlDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/HtmlNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/PlainTextOperator.java" afterDir="false" />
+    <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="Visitor Pattern Html Operation">
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/AddReverbOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/AudioFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/FactSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/FormatSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/NormalizeOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/ReduceNoiseOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/wavFile/WavFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -73,7 +74,7 @@
       <workItem from="1692887473322" duration="2632000" />
       <workItem from="1693094407192" duration="2833000" />
       <workItem from="1693139489164" duration="3903000" />
-      <workItem from="1693221295138" duration="2992000" />
+      <workItem from="1693221295138" duration="5008000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
@@ -208,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693143825165</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Visitor Pattern Html Operation">
+      <created>1693225382613</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693225382613</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +261,7 @@
     <MESSAGE value="mediator pattern implementation with Observer pattern" />
     <MESSAGE value="Chain of Responsibility design pattern" />
     <MESSAGE value="Chain of Responsibility spreadSheet file reader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chain of Responsibility spreadSheet file reader" />
+    <MESSAGE value="Visitor Pattern Html Operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Visitor Pattern Html Operation" />
   </component>
 </project>
