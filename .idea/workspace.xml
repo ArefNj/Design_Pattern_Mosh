@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c9edda5-24e9-49e6-8a3c-8765ecaaa96e" name="Changes" comment="move to behavioral package">
-      <change afterPath="$PROJECT_DIR$/src/structural/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Ex/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Ex/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Ex/HumanResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Ex/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Ex/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/CaramelFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/ImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/OxygenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/VividFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/ex/EmailClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/ex/EmailProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/ex/Gmail/GmailClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/ex/GmailProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/filters/Caramel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/filters/Oxygen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,6 +87,7 @@
       <workItem from="1693221295138" duration="5008000" />
       <workItem from="1694637413017" duration="93000" />
       <workItem from="1694637640526" duration="4100000" />
+      <workItem from="1694722989128" duration="4197000" />
     </task>
     <task id="LOCAL-00001" summary="State Pattern">
       <created>1692524162237</created>
