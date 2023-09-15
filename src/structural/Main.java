@@ -4,6 +4,7 @@ import structural.decorator.CloudStream;
 import structural.decorator.CompressCloudStream;
 import structural.decorator.EncryptedCloudStream;
 
+
 public class Main {
     public static void main(String[] args) {
         /* composite patten : shapes & groups */
@@ -43,16 +44,15 @@ public class Main {
 //        emailClient.addProvider(new GmailAdapter(new GmailClient()));
 //        emailClient.downloadEmails();
 
-    /* decorator pattern :  */
-        var encryptedCloudStream = new EncryptedCloudStream(new CloudStream());
-        encryptedCloudStream.write("some data");
-        var compressedCloudStream = new CompressCloudStream(new CloudStream());
-        compressedCloudStream.write("some data");
-        var encryptedAndCompressedCloudStream = new EncryptedCloudStream(new CompressCloudStream(new CloudStream()));
-        encryptedAndCompressedCloudStream.write("some data");
+    /* decorator pattern : CloudStream */
+//        var encryptedCloudStream = new EncryptedCloudStream(new CloudStream());
+//        encryptedCloudStream.write("some data");
+//        var compressedCloudStream = new CompressCloudStream(new CloudStream());
+//        compressedCloudStream.write("some data");
+//        var encryptedAndCompressedCloudStream = new EncryptedCloudStream(new CompressCloudStream(new CloudStream()));
+//        encryptedAndCompressedCloudStream.write("some data");
 
-
-
+    /* decorator pattern Example : Code Editor */
     }
 
 
