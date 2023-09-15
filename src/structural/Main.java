@@ -3,6 +3,7 @@ package structural;
 import structural.decorator.CloudStream;
 import structural.decorator.CompressCloudStream;
 import structural.decorator.EncryptedCloudStream;
+import structural.decorator.ex.Demo;
 
 
 public class Main {
@@ -44,7 +45,7 @@ public class Main {
 //        emailClient.addProvider(new GmailAdapter(new GmailClient()));
 //        emailClient.downloadEmails();
 
-    /* decorator pattern : CloudStream */
+        /* decorator pattern : CloudStream */
 //        var encryptedCloudStream = new EncryptedCloudStream(new CloudStream());
 //        encryptedCloudStream.write("some data");
 //        var compressedCloudStream = new CompressCloudStream(new CloudStream());
@@ -52,7 +53,8 @@ public class Main {
 //        var encryptedAndCompressedCloudStream = new EncryptedCloudStream(new CompressCloudStream(new CloudStream()));
 //        encryptedAndCompressedCloudStream.write("some data");
 
-    /* decorator pattern Example : Code Editor */
+        /* decorator pattern Example : Code Editor */
+        Demo.show();
     }
 
 
